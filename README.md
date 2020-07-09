@@ -1,7 +1,10 @@
 # Central (Admin) Panel
-Domain: panel.emudevs.ru
+Domain: cp.emudevs.ru
+
 Duration: 6 months
+
 Languages: Perl, PHP, Java Script (jQuery or NodeJS)
+
 
 # The essence of the project:
 We create a universal, multi-game, multi-language admin platform. In which administrators using a monthly subscription will be able to manage their server for any game (the list of games should expand).
