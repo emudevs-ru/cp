@@ -1,4 +1,10 @@
 <?php
+/*
+    Autor: mrSlink
+    Update date: 9.07.2020
+    Description:
+    Standard router. Based on, but changed router from OpenCart 3
+*/
 final class Router{
     private $registry;
     private $proxy;
@@ -21,7 +27,6 @@ final class Router{
         } else {
             return $adress;
         }
-        
     }
 
     private function controller($array){

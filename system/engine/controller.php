@@ -1,7 +1,21 @@
 <?php
+/*
+    Autor: mrSlink
+    Update date: 9.07.2020
+    Description:
+    Standard controller. Based on, but changed controller from OpenCart 3
+*/
 class Controller{
-	public $_error = array();
+    /*
+    *   Array of errors
+    */
+    public $_error = array();
+    
+    /*
+    *   Allegedly global variables that we pass to the current controller
+    */
 	public $adress, $proxy, $post, $get, $model, $document, $render;
+
 
 	public function __construct($registry){
 		extract($registry);

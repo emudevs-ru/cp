@@ -1,6 +1,9 @@
 <?php
-/**
-* Document class
+/*
+    Autor: mrSlink
+    Update date: 9.07.2020
+    Description:
+    Document class
 */
 class Document {
 	private $title;
@@ -13,8 +16,7 @@ class Document {
 	private $og_image;
 
 	/**
-     * 
-     *
+     * Function that saves the current page title
      * @param	string	$title
      */
 	public function setTitle($title) {
@@ -22,8 +24,7 @@ class Document {
 	}
 
 	/**
-     * 
-	 * 
+     * Function giving the current page title
 	 * @return	string
      */
 	public function getTitle() {
@@ -39,8 +40,7 @@ class Document {
 	}
 
 	/**
-     * 
-     *
+     * Function that saves the current page description
      * @param	string	$description
      */
 	public function setDescription($description) {
@@ -48,10 +48,8 @@ class Document {
 	}
 
 	/**
-     * 
-     *
+     * Function giving the current page description
      * @param	string	$description
-	 * 
 	 * @return	string
      */
 	public function getDescription() {
@@ -59,8 +57,7 @@ class Document {
 	}
 
 	/**
-     * 
-     *
+     * Function that saves the current page keywords
      * @param	string	$keywords
      */
 	public function setKeywords($keywords) {
@@ -68,8 +65,7 @@ class Document {
 	}
 
 	/**
-     *
-	 * 
+     * Function giving the current page keywords
 	 * @return	string
      */
 	public function getKeywords() {
@@ -77,8 +73,7 @@ class Document {
 	}
 	
 	/**
-     * 
-     *
+     * Adding <link> Page
      * @param	string	$href
 	 * @param	string	$rel
      */
@@ -90,8 +85,7 @@ class Document {
 	}
 
 	/**
-     * 
-	 * 
+     * Adding <link> Page
 	 * @return	array
      */
 	public function getLinks() {
@@ -99,8 +93,7 @@ class Document {
 	}
 
 	/**
-     * 
-     *
+     * Adding <link> Page Styles
      * @param	string	$href
 	 * @param	string	$rel
 	 * @param	string	$media
@@ -114,8 +107,7 @@ class Document {
 	}
 
 	/**
-     * 
-	 * 
+     * Adding <link> Page Styles
 	 * @return	array
      */
 	public function getStyles() {
@@ -123,8 +115,7 @@ class Document {
 	}
 
 	/**
-     * 
-     *
+     * Adding <script> Page Scripts
      * @param	string	$href
 	 * @param	string	$postion
      */
@@ -133,8 +124,7 @@ class Document {
 	}
 
 	/**
-     * 
-     *
+     * Adding <script> Page Scripts
      * @param	string	$postion
 	 * 
 	 * @return	array
